@@ -9,7 +9,7 @@ Get the chance to experience our 24 hour preview deal that comes with our subscr
 
 Headline: The spot where gamers can rent and play with low costs
 
-Primary Brand Color: #c92a2a
+Primary Brand Color: #e03131
 Grey Brand Color: #495057
 
 ## Video Game Rental Central Content
@@ -56,7 +56,7 @@ Premium Membership Benefits: $14.99 monthly fee
 - Discount on gaming accessory rentals
 - 24 hour gameplay sample option
 - $5 VRGC Credit Reward
-- Early access to new releases of games, consoles, and accessories 
+- Early access to new releases of games, consoles, and accessories
 
 ### Contact information
 
