@@ -7,7 +7,7 @@ Get the chance to experience our 24 hour preview deal that comes with our subscr
 
 ## Branding
 
-Headline: The spot where gamers can rent and play with low costs
+Headline: The website where gamers can rent and play with low costs
 
 Primary Brand Color: #e03131
 Grey Brand Color: #495057
@@ -44,13 +44,14 @@ Enjoy your rentals and return them anytime to swap for new ones: After the renta
 
 Standard Membership Benefits: $9.99 monthly fee
 
-- 30 day free trial avaliable
+- 30 day free trial available
 - 2 day free shipping
 - Rent up to 2 games and up to 1 console
 - 24 hour gameplay sample option
 
 Premium Membership Benefits: $14.99 monthly fee
 
+- 30 day free trial available
 - 1 day free shipping
 - Rent up to 4 games and up to 2 consoles
 - Discount on gaming accessory rentals
