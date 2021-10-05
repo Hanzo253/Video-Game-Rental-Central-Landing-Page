@@ -143,18 +143,12 @@ body {
 /* HERO SECTION */
 /***************************/
 
-// #hero-section {
-//   height: 100vh;
-//   // background-color: #c5f6fa;
-//   position: relative;
-//   background-image: linear-gradient(
-//       rgba(34, 34, 34, 0.6),
-//       rgba(34, 34, 34, 0.6)
-//     ),
-//     url(../img/VRGC-Hero-1.jpg);
-//   background-size: cover;
-//   padding: 4.8rem 0 9.6rem 0;
-// }
+#hero-section {
+  // background-color: #c5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-slideshow {
   width: 100%;
