@@ -60,12 +60,21 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /***************************/
 .container {
-  margin: auto;
-  width: 1200px;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
 }
 
 .margin-right {
   margin-right: 2rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 9.6rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 /***************************/
@@ -126,12 +135,14 @@ body {
 /* HERO SECTION */
 /***************************/
 #hero-section {
+  width: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -148,6 +159,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  padding: 9.6rem 0 9.6rem 0;
 }
 
 .hero-slideshow div {
@@ -169,18 +181,11 @@ body {
 .hero-container {
   max-width: 130rem;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 0 3.2rem;
-}
-
-.hero-container-inner {
-  margin-top: 9.6rem;
-  width: 100rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .hero-heading {
@@ -232,6 +237,19 @@ body {
 .how {
   padding: 9.6px 0;
   background-color: yellow;
+}
+
+.how div {
+  padding: 10rem;
+  font-size: 5rem;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 9.6rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .how div:nth-child(1) {

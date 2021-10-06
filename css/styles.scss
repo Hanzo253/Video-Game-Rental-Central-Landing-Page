@@ -62,12 +62,19 @@ body {
 /***************************/
 
 .container {
-  margin: auto;
-  width: 1200px;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
 }
 
 .margin-right {
   margin-right: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /***************************/
@@ -91,14 +98,14 @@ body {
   height: 2.2rem;
 }
 
-.main-nav {
-  // font-size: 20px;
-  // display: flex;
-  // font-weight: 700;
-  // justify-content: space-between;
-  // background-color: #da77f2;
-  // padding-top: 32px;
-}
+// .main-nav {
+//   // font-size: 20px;
+//   // display: flex;
+//   // font-weight: 700;
+//   // justify-content: space-between;
+//   // background-color: #da77f2;
+//   // padding-top: 32px;
+// }
 
 /***************************/
 /* NAVIGATION */
@@ -126,27 +133,28 @@ body {
   color: #212529;
 }
 
-.header-nav-link.nav-cta:link,
-.header-nav-link.nav-cta:visited {
-  // padding: 1.2rem 2.4rem;
-  // border-radius: 9px;
-  // color: #f8f9fa;
-  // background-color: #343a40;
-}
+// .header-nav-link.nav-cta:link,
+// .header-nav-link.nav-cta:visited {
+//   padding: 1.2rem 2.4rem;
+//   border-radius: 9px;
+//   color: #f8f9fa;
+//   background-color: #343a40;
+// }
 
-.header-nav-link.nav-cta:hover,
-.header-nav-link.nav-cta:active {
-  // background-color: #212529;
-}
+// .header-nav-link.nav-cta:hover,
+// .header-nav-link.nav-cta:active {
+//   background-color: #212529;
+// }
 
 /***************************/
 /* HERO SECTION */
 /***************************/
 
 #hero-section {
-  // background-color: #c5f6fa;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: absolute;
   top: 0;
@@ -162,7 +170,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  // padding: 4.8rem 0 9.6rem 0;
+  padding: 9.6rem 0 9.6rem 0;
 }
 
 .hero-slideshow div {
@@ -183,18 +191,13 @@ body {
 .hero-container {
   max-width: 130rem;
   margin: 0 auto;
-  display: flex;
+  // display: flex;
   // justify-content: center;
-  align-items: center;
+  // align-items: center;
   padding: 0 3.2rem;
   // background-color: #e64980;
   // text-align: center;
-}
-
-.hero-container-inner {
-  margin-top: 9.6rem;
-  width: 100rem;
-  // background-color: #0ca678;
+  flex-direction: column;
 }
 
 .hero-heading {
@@ -245,6 +248,17 @@ body {
 .how {
   padding: 9.6px 0;
   background-color: yellow;
+}
+
+.how div {
+  padding: 10rem;
+  font-size: 5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .how div:nth-child(1) {
