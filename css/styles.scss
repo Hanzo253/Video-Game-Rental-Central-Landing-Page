@@ -57,6 +57,11 @@ body {
   color: #f8f9fa;
 }
 
+@font-face {
+  font-family: "Aquire";
+  src: url(../logo-font/Aquire-BW0ox.otf) format("opentype");
+}
+
 /***************************/
 /* GENERAL REUSABLE COMPONENTS */
 /***************************/
@@ -93,8 +98,12 @@ body {
 }
 
 #logo {
-  // font-size: 20px;
-  // font-weight: 700;
+  height: 2.2rem;
+  font-family: "Aquire";
+  color: #dee2e6;
+}
+
+.vrgc-logo {
   height: 2.2rem;
 }
 
@@ -239,6 +248,10 @@ body {
   background-color: #f8f9fa;
   color: #343a40;
 }
+
+/***************************/
+/* HOW IT WORKS SECTION */
+/***************************/
 
 .how {
   padding: 9.6px 0;
