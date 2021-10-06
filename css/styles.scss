@@ -250,12 +250,6 @@ body {
   font-size: 5rem;
 }
 
-.grid {
-  display: grid;
-  gap: 9.6rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .how div:nth-child(1) {
   background-color: indigo;
 }
