@@ -69,14 +69,6 @@ body {
   margin-right: 2rem;
 }
 
-.grid {
-  display: -ms-grid;
-  display: grid;
-  gap: 9.6rem;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-}
-
 /***************************/
 /* HEADER */
 /***************************/
@@ -146,11 +138,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 .hero-slideshow {
@@ -233,39 +220,5 @@ body {
 #how-it-works:hover {
   background-color: #f8f9fa;
   color: #343a40;
-}
-
-.how {
-  padding: 9.6px 0;
-  background-color: yellow;
-}
-
-.how div {
-  padding: 10rem;
-  font-size: 5rem;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  gap: 9.6rem;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-}
-
-.how div:nth-child(1) {
-  background-color: indigo;
-}
-
-.how div:nth-child(2) {
-  background-color: blue;
-}
-
-.how div:nth-child(3) {
-  background-color: crimson;
-}
-
-.how div:nth-child(4) {
-  background-color: green;
 }
 /*# sourceMappingURL=styles.css.map */
