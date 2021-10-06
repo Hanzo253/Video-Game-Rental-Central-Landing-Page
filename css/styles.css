@@ -146,11 +146,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 .hero-slideshow {
@@ -243,14 +238,6 @@ body {
 .how div {
   padding: 10rem;
   font-size: 5rem;
-}
-
-.grid {
-  display: -ms-grid;
-  display: grid;
-  gap: 9.6rem;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
 }
 
 .how div:nth-child(1) {
