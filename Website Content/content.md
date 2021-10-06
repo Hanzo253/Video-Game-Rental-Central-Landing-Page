@@ -66,3 +66,5 @@ Phone Number: 770-265-7953
 Email Address: support@vrgc.com
 
 ### Additional links [not avaliable yet]
+
+Logo Attribute to give credit: <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
