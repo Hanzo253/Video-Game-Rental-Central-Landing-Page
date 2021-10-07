@@ -8,7 +8,7 @@
 function slideshowImages() {
   for (let i = 1; i <= 13; i++) {
     const imageDivs = document.createElement("div");
-    imageDivs.style.backgroundImage = `linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../img/VRGC-Hero-${i}.jpg)`;
+    imageDivs.style.backgroundImage = `linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../img/VGRC-Hero-${i}.jpg)`;
 
     i === 1 && imageDivs.classList.add("change");
 
