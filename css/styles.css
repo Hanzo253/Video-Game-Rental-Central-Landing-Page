@@ -74,6 +74,14 @@ body {
   margin-right: 2rem;
 }
 
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 9.6rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
 /***************************/
 /* HEADER */
 /***************************/
@@ -236,7 +244,6 @@ body {
 /***************************/
 /* HOW IT WORKS SECTION */
 /***************************/
-
 .how {
   padding: 9.6px 0;
   background-color: yellow;
