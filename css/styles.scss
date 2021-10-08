@@ -92,12 +92,6 @@ body {
   // grid-template-columns: repeat(4, 1fr);
 }
 
-.primary-heading,
-.secondary-heading {
-  font-weight: 700;
-  letter-spacing: -0.5px;
-}
-
 .primary-heading {
   display: block;
   font-size: 7.4rem;
@@ -113,6 +107,8 @@ body {
   line-height: 1.2;
   margin-bottom: 9.6rem;
   color: #f8f9fa;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 /***************************/
