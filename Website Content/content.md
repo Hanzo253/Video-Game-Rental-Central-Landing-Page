@@ -36,18 +36,18 @@ Subscription pauses and refunds: If the customer will not be able to use the ben
 
 Choose what type of membership you want to pay for monthly: Users can pick between our standard or premium membership
 
-Find games or gaming consoles to rent: Depending on which type of membership the customers have chosen, they can rent up to two games and one console with the standard type, and the premium allows users to be able to rent up to four games and 2 consoles.
+Find games or gaming consoles to rent: Depending on which type of membership the customers have chosen, they can rent only one game and one console with the standard type, and the premium type lets them rent two games and one console.
 
 Enjoy your rentals and return them anytime to swap for new ones: After the rental order has been made, we will send the games and products as soon as we can in about 1-2 business days with free shipping. Customers can just ship our products to the return address that will be provided upon order completion.
 
 ### Standard and Premium Membership Benefits
 
-Standard Membership Benefits: $9.99 monthly fee
+Standard Membership Benefits: $4.99 monthly fee
 
 - 30 day free trial available
 - 24 hour gameplay sample option
 
-Premium Membership Benefits: $14.99 monthly fee
+Premium Membership Benefits: $9.99 monthly fee
 
 - 30 day free trial available
 - 1 day free shipping
