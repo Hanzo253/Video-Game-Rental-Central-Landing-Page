@@ -63,7 +63,7 @@ Premium Membership Benefits: $14.99 monthly fee
 
 Phone Number: 770-265-7953
 
-Email Address: support@vrgc.com
+Email Address: support@vgrc.com
 
 ### Additional links [not avaliable yet]
 
