@@ -46,12 +46,14 @@ Standard Membership Benefits: $4.99 monthly fee
 
 - 30 day free trial available
 - 24 hour gameplay sample option
+- 2 day free shipping
+- Rent up to 1 game and 1 console
 
 Premium Membership Benefits: $9.99 monthly fee
 
 - 30 day free trial available
 - 1 day free shipping
-- Rent up to 2 games
+- Rent up to 2 games and 2 consoles
 - Discount on gaming accessory rentals
 - 24 hour gameplay sample option
 - Early access to new releases of games, consoles, and accessories
