@@ -36,7 +36,7 @@ Subscription pauses and refunds: If the customer will not be able to use the ben
 
 Choose what type of membership you want to pay for monthly: Users can pick between our standard or premium membership
 
-Find games or gaming consoles to rent: Depending on which type of membership the customers have chosen, they can rent only one game and one console with the standard type, and the premium type lets them rent two games and one console.
+Find the games or gaming consoles you want to rent: Depending on which type of membership the customers have chosen, they can rent only one game and one console with the standard type, and the premium type lets them rent two games and one console. We also have gaming accessories available for rent too.
 
 Enjoy your rentals and return them anytime to swap for new ones: After the rental order has been made, we will send the games and products as soon as we can in about 1-2 business days with free shipping. Customers can just ship our products to the return address that will be provided upon order completion.
 
