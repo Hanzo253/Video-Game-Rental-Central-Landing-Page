@@ -92,14 +92,18 @@ body {
   // grid-template-columns: repeat(4, 1fr);
 }
 
-.primary-heading {
+.primary-heading,
+.section-heading {
   display: block;
-  font-size: 7.4rem;
   font-weight: 500;
-  color: #373b3e;
+}
+
+.primary-heading {
+  font-size: 7.4rem;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  color: #373b3e;
   letter-spacing: 1px;
+  margin-bottom: 1.6rem;
 }
 
 .secondary-heading {
@@ -109,6 +113,21 @@ body {
   color: #f8f9fa;
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+.section-heading {
+  margin-top: 4.8rem;
+  font-size: 5.2rem;
+  color: #e03131;
+  text-transform: capitalize;
+  margin-bottom: 4.8rem;
+  letter-spacing: 0.5px;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /***************************/
@@ -318,4 +337,121 @@ body {
 
 .step-image {
   width: 100%;
+}
+
+/***************************/
+/* PRODUCTS SECTION */
+/***************************/
+
+.products-section {
+  width: 100%;
+  height: 70vh;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #495057;
+}
+
+.product-img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  margin-top: 8rem;
+}
+
+.product-label {
+  text-align: center;
+}
+
+.product-name,
+.product-price {
+  display: block;
+  font-size: 2rem;
+}
+
+.product-price {
+  margin-top: 1.6rem;
+}
+
+.view-button {
+  margin-top: 2.4rem;
+  background-color: #e03131;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #f8f9fa;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: #b32727;
+}
+
+.next-btn,
+.prev-btn {
+  background-color: #dee2e6;
+  border: none;
+  width: 5rem;
+  height: 5rem;
+  color: #e03131;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.next-btn {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.prev-btn {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #e03131;
+}
+
+.video-game-switch {
+  width: 49%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+}
+
+.video-game,
+.accessory {
+  width: 65%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
 }

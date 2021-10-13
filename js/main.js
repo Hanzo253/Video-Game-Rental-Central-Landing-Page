@@ -1,10 +1,3 @@
-// var images = new Array(
-//   "../img/VRGC-Hero-1.jpg",
-//   "../img/VRGC-Hero-2.jpg",
-//   "../img/VRGC-Hero-3.jpg",
-//   "../img/VRGC-Hero-4.jpg"
-// );
-
 function slideshowImages() {
   for (let i = 1; i <= 13; i++) {
     const imageDivs = document.createElement("div");
@@ -38,3 +31,17 @@ function slideShow() {
 }
 
 slideShow();
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  slidesPerView: 3,
+  centeredSlides: true,
+  spaceBetween: 30,
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
