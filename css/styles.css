@@ -125,13 +125,21 @@ body {
   letter-spacing: -0.5px;
 }
 
-.section-heading {
+.section-heading,
+.section-heading-alt {
   margin-top: 4.8rem;
   font-size: 5.2rem;
-  color: #e03131;
   text-transform: capitalize;
   margin-bottom: 4.8rem;
   letter-spacing: 0.5px;
+}
+
+.section-heading {
+  color: #e03131;
+}
+
+.section-heading-alt {
+  color: #f8f9fa;
 }
 
 .sub-heading {
@@ -588,6 +596,14 @@ body {
   background-color: #e03131;
 }
 
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 8rem;
+  color: #343a40;
+}
+
 .price {
   font-size: 7rem;
   font-weight: 300;
@@ -625,12 +641,26 @@ body {
   border: none;
   font-size: 1.6rem;
   text-transform: uppercase;
-  background-color: #dee2e6;
   font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.standard-btn {
+  background-color: #dee2e6;
+}
+
+.standard-btn:hover {
+  background-color: #c8cbcf;
 }
 
 .premium-btn {
   background-color: #e03131;
   color: #f8f9fa;
+}
+
+.premium-btn:hover {
+  background-color: #b32727;
 }
 /*# sourceMappingURL=styles.css.map */
