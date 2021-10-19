@@ -32,7 +32,7 @@ Paragraph Default: 1.6
 - GREYS: #495057, #f8f9fa, #f1f3f5, #dee2e6, #343a40
 
 - Tints: #373b3e
-- Shades: #b32727
+- Shades: #b32727, #919293
 - Accents:
 
 --- SHADOWS
@@ -185,15 +185,6 @@ body {
   color: #f8f9fa;
 }
 
-// .main-nav {
-//   // font-size: 20px;
-//   // display: flex;
-//   // font-weight: 700;
-//   // justify-content: space-between;
-//   // background-color: #da77f2;
-//   // padding-top: 32px;
-// }
-
 /***************************/
 /* NAVIGATION */
 /***************************/
@@ -220,18 +211,18 @@ body {
   color: #373b3e;
 }
 
-// .header-nav-link.nav-cta:link,
-// .header-nav-link.nav-cta:visited {
-//   padding: 1.2rem 2.4rem;
-//   border-radius: 9px;
-//   color: #f8f9fa;
-//   background-color: #343a40;
-// }
+.header-nav-link.nav-cta:link,
+.header-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #343a40;
+  background-color: #f8f9fa;
+}
 
-// .header-nav-link.nav-cta:hover,
-// .header-nav-link.nav-cta:active {
-//   background-color: #212529;
-// }
+.header-nav-link.nav-cta:hover,
+.header-nav-link.nav-cta:active {
+  background-color: #dfe0e1;
+}
 
 /***************************/
 /* HERO SECTION */
@@ -305,7 +296,7 @@ body {
   font-weight: 600;
   color: #f8f9fa;
   display: inline-block;
-  padding: 16px 32px;
+  padding: 1.6rem 3.2rem;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
