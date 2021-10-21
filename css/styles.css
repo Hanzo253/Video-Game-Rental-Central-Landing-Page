@@ -53,6 +53,7 @@ Default: 9px
 html {
   /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -60,6 +61,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+:root {
+  --swiper-theme-color: #e03131;
 }
 
 @font-face {
@@ -193,6 +199,7 @@ body {
   font-weight: 700;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -244,6 +251,24 @@ body {
   background-color: #dfe0e1;
 }
 
+/* MOBILE */
+.mobile-nav-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #f8f9fa;
+}
+
+.bi-x {
+  display: none;
+}
+
 /***************************/
 /* HERO SECTION */
 /***************************/
@@ -275,7 +300,7 @@ body {
   height: 100vh;
   width: 100%;
   position: absolute;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
@@ -453,9 +478,13 @@ body {
   height: 70vh;
 }
 
-.swiper {
+.mySwiper-1 {
   width: 100%;
-  height: 100%;
+  height: 80%;
+}
+
+.mySwiper-2 {
+  display: none;
 }
 
 .swiper-slide {
@@ -479,10 +508,12 @@ body {
   color: #495057;
 }
 
-.product-img {
+.product-img,
+.joycon-img,
+.switch-game-img,
+.console-game-img,
+.accessory-img {
   display: block;
-  width: 100%;
-  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
   margin-top: 8rem;
@@ -509,7 +540,7 @@ body {
   font-size: 1.6rem;
   font-weight: 600;
   color: #f8f9fa;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   border: none;
   cursor: pointer;
   -webkit-transition: background-color 0.3s;
@@ -520,39 +551,8 @@ body {
   background-color: #b32727;
 }
 
-.next-btn,
-.prev-btn {
-  background-color: #dee2e6;
-  border: none;
-  width: 5rem;
-  height: 5rem;
+.swiper-pagination span {
   color: #e03131;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.next-btn {
-  right: 0;
-  top: 50%;
-  -webkit-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
-}
-
-.prev-btn {
-  left: 0;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .swiper-button-prev,
@@ -560,18 +560,31 @@ body {
   color: #e03131;
 }
 
-.video-game-switch {
-  width: 49%;
-  height: 50%;
+.product-img {
+  width: 100%;
+  height: 55%;
+}
+
+.switch-game-img {
+  width: auto;
+  height: 55%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5rem;
 }
 
-.video-game,
-.accessory {
-  width: 65%;
-  height: 50%;
+.console-game-img,
+.accessory-img {
+  width: auto;
+  height: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+}
+
+.joycon-img {
+  width: 100%;
+  height: 55%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5rem;
@@ -583,6 +596,7 @@ body {
 .pricing-section {
   width: 100%;
   height: 100vh;
+  border-top: 1px solid #dee2e6;
 }
 
 .pricing-plan {
@@ -646,7 +660,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
-  padding: 6.4rem 0;
+  padding: 4.8rem 0;
   color: #343a40;
 }
 
@@ -673,10 +687,6 @@ body {
 
 .green-check {
   color: #2f9e44;
-}
-
-.red-x {
-  color: #c92a2a;
 }
 
 .pricing-plan-btn {
@@ -716,7 +726,7 @@ body {
 .footer {
   display: block;
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   padding: 9.6rem 0;
   background-color: #e03131;
 }
