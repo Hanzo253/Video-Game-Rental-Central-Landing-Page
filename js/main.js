@@ -32,12 +32,38 @@ function slideShow() {
 
 slideShow();
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".mySwiper-1", {
   // Optional parameters
   slidesPerView: 3,
-  centeredSlides: true,
   spaceBetween: 30,
+  slidesPerGroup: 3,
   loop: true,
+
+  // Pagination
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+const swiper2 = new Swiper(".mySwiper-2", {
+  // Optional parameters
+  slidesPerView: 2,
+  centeredSlides: false,
+  slidesPerGroupSkip: 1,
+  loop: true,
+
+  // Pagination
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
 
   // Navigation arrows
   navigation: {
