@@ -71,3 +71,32 @@ const swiper2 = new Swiper(".mySwiper-2", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// Mobile navigation
+const navBtn = document.querySelector(".mobile-nav-btn");
+const header = document.querySelector(".header");
+
+navBtn.addEventListener("click", openNav);
+
+function openNav() {
+  header.classList.toggle("nav-opened");
+}
+
+// Fixing flexbox gap property missing in some Safari versions
+function checkFlexGap() {
+  var flex = document.createElement("div");
+  flex.style.display = "flex";
+  flex.style.flexDirection = "column";
+  flex.style.rowGap = "1px";
+
+  flex.appendChild(document.createElement("div"));
+  flex.appendChild(document.createElement("div"));
+
+  document.body.appendChild(flex);
+  var isSupported = flex.scrollHeight === 1;
+  console.log(isSupported);
+
+  if (!isSupported) document.body.classList.add("no-flexbox-gap");
+}
+
+checkFlexGap();

@@ -227,6 +227,7 @@ Instead, 1rem = 1em = 16px */
   /* MOBILE NAVIGATION */
   .mobile-nav-btn {
     display: block;
+    z-index: 9999;
   }
 
   .nav-opened .header-nav {
@@ -242,10 +243,10 @@ Instead, 1rem = 1em = 16px */
 
   .nav-opened .bi-x {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 3.2rem 3.2rem;
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // margin: 3.2rem 3.2rem;
   }
 
   .header-nav {
