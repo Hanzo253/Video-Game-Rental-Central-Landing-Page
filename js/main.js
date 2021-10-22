@@ -165,6 +165,7 @@ const observer = new IntersectionObserver(
 observer.observe(heroSection);
 
 const loginBtn = document.querySelector(".nav-btn");
+const viewBtns = document.getElementsByClassName("view-button");
 const selectPlanBtnStandard = document.querySelector(".standard-btn");
 const selectPlanBtnPremium = document.querySelector(".premium-btn");
 
@@ -175,6 +176,11 @@ function notImplementedMessage() {
 }
 
 loginBtn.addEventListener("click", notImplementedMessage);
+
+for (let i = 0; i < viewBtns.length; i++) {
+  viewBtns[i].addEventListener("click", notImplementedMessage);
+}
+
 selectPlanBtnStandard.addEventListener("click", notImplementedMessage);
 selectPlanBtnPremium.addEventListener("click", notImplementedMessage);
 
