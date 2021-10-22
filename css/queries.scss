@@ -330,6 +330,10 @@ Instead, 1rem = 1em = 16px */
     padding: 1rem 2rem;
   }
 
+  .our-goal-section {
+    height: 60vh;
+  }
+
   .green-check {
     width: 2rem;
     height: 1.2rem;
@@ -344,6 +348,103 @@ Instead, 1rem = 1em = 16px */
     width: 20px;
     height: 20px;
     cursor: pointer;
+  }
+}
+
+/***************************/
+/* BELOW 500px height in landscape mode (Phones) */
+/***************************/
+
+@media (max-height: 31em) and (orientation: landscape) {
+  html {
+    /* 3px / 16px = 0.1875 = 18.75% */
+    font-size: 18.75%;
+  }
+
+  .features-section {
+    height: 50vh;
+  }
+
+  .feature-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .our-goal-section {
+    height: 80vh;
+  }
+
+  .our-goal-img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .rentals-section {
+    height: 100vh;
+  }
+
+  .pricing-section {
+    height: 90vh;
+  }
+
+  .pricing-plan {
+    height: 50rem;
+  }
+
+  .plan-details {
+    font-size: 1.4rem;
+  }
+
+  .green-check {
+    width: 8px;
+    height: 8px;
+  }
+
+  .social-links .bi {
+    width: 16px;
+    height: 8px;
+  }
+}
+
+/***************************/
+/* BELOW 700px height */
+/***************************/
+
+@media (max-height: 44rem) {
+  html {
+    /* 3px / 16px = 0.1875 = 18.75% */
+    font-size: 18.75%;
+  }
+
+  .features-section {
+    height: 40vh;
+  }
+
+  .feature-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .our-goal-section {
+    height: 60vh;
+  }
+
+  .rentals-section {
+    height: 80vh;
+  }
+
+  .pricing-section {
+    height: 70vh;
+  }
+
+  .green-check {
+    width: 8px;
+    height: 8px;
+  }
+
+  .social-links .bi {
+    width: 16px;
+    height: 8px;
   }
 }
 
