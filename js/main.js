@@ -164,6 +164,20 @@ const observer = new IntersectionObserver(
 );
 observer.observe(heroSection);
 
+const loginBtn = document.querySelector(".nav-btn");
+const selectPlanBtnStandard = document.querySelector(".standard-btn");
+const selectPlanBtnPremium = document.querySelector(".premium-btn");
+
+function notImplementedMessage() {
+  alert(
+    "This button has no function implemented yet. I will work on them in the future."
+  );
+}
+
+loginBtn.addEventListener("click", notImplementedMessage);
+selectPlanBtnStandard.addEventListener("click", notImplementedMessage);
+selectPlanBtnPremium.addEventListener("click", notImplementedMessage);
+
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement("div");

@@ -207,7 +207,8 @@ body {
 }
 
 .header-nav-link:link,
-.header-nav-link:visited {
+.header-nav-link:visited,
+.nav-btn {
   display: inline-block;
   text-decoration: none;
   color: #f8f9fa;
@@ -221,16 +222,17 @@ body {
   color: #373b3e;
 }
 
-.header-nav-link.nav-btn:link,
-.header-nav-link.nav-btn:visited {
+.nav-btn {
+  font-weight: 700;
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #343a40;
   background-color: #f8f9fa;
+  border: none;
 }
 
-.header-nav-link.nav-btn:hover,
-.header-nav-link.nav-btn:active {
+.nav-btn:hover,
+.nav-btn:active {
   background-color: #dfe0e1;
 }
 
