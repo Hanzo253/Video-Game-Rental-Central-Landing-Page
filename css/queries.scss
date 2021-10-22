@@ -11,7 +11,7 @@ Instead, 1rem = 1em = 16px */
     padding: 0 4.8rem;
   }
 
-  .how {
+  .how-section {
     padding: 9.6rem 0;
     background-color: #e03131;
   }
@@ -124,7 +124,7 @@ Instead, 1rem = 1em = 16px */
     font-size: 50%;
   }
 
-  .how {
+  .how-section {
     padding: 9.6rem 3.2rem;
   }
 
@@ -190,6 +190,7 @@ Instead, 1rem = 1em = 16px */
 
   .features-section {
     height: 30vh;
+    padding: 3.2rem 0;
   }
 
   .feature-title {
@@ -213,6 +214,10 @@ Instead, 1rem = 1em = 16px */
     display: block;
     width: 100%;
     height: 80%;
+  }
+
+  .rentals-section {
+    padding: 3.2rem 0;
   }
 
   .pricing-section {
@@ -339,5 +344,46 @@ Instead, 1rem = 1em = 16px */
     width: 20px;
     height: 20px;
     cursor: pointer;
+  }
+}
+
+/**************************/
+/* Fixing Safari flexbox gap */
+/**************************/
+
+.no-flexbox-gap .header-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .benefits:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .bi-check-lg:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-list li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-col-list li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .header-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .header-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
   }
 }

@@ -56,6 +56,7 @@ html {
   // font-size: 10px;
   /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -188,6 +189,7 @@ body {
 }
 
 .logo {
+  text-decoration: none;
   height: 2.2rem;
   font-family: "Aquire";
   color: #f8f9fa;
@@ -248,6 +250,24 @@ body {
 
 .bi-x {
   display: none;
+}
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba($color: #e03131, $alpha: 0.95);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .hero {
+  margin-top: 9.6rem;
 }
 
 /***************************/
@@ -348,7 +368,7 @@ body {
 /* HOW IT WORKS SECTION */
 /***************************/
 
-.how {
+.how-section {
   padding: 9.6rem 0;
   background-color: #e03131;
 }
@@ -393,6 +413,7 @@ body {
 .features-section {
   width: 100%;
   height: 50vh;
+  padding: 3.2rem 0;
 }
 
 .features {
@@ -450,7 +471,7 @@ body {
 .rentals-section {
   width: 100%;
   height: 70vh;
-  // padding-bottom: 3.2rem;
+  padding: 3.2rem 0;
 }
 
 .mySwiper-1 {
@@ -569,8 +590,8 @@ body {
 }
 
 .pricing-plan {
-  width: 85%;
-  height: 65rem;
+  width: 100%;
+  height: 60rem;
   background-color: #f1f3f5;
   border-radius: 1rem;
   box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.1);
@@ -705,6 +726,12 @@ body {
 
 .footer-logo {
   font-family: "Aquire";
+}
+
+.footer-logo-link:link,
+.footer-logo-link:visited {
+  text-decoration: none;
+  color: #f8f9fa;
 }
 
 .copyright {
