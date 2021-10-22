@@ -82,6 +82,89 @@ function openNav() {
   header.classList.toggle("nav-opened");
 }
 
+// Smooth Scrolling
+const allLinks = document.querySelectorAll("a:link");
+const startRentBtn = document.querySelector("#start-rent");
+const howItWorksBtn = document.querySelector("#how-it-works");
+const pricingSection = document.querySelector(".pricing-section");
+const howSection = document.querySelector(".how-section");
+
+allLinks.forEach(function (link) {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    // Scroll back to top
+    if (href === "#") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+
+    // scroll to other links
+    if (href !== "#" && href.startsWith("#")) {
+      const section = document.querySelector(href);
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+
+    // close mobile navigation
+    if (link.classList.contains("header-nav-link")) {
+      header.classList.toggle("nav-opened");
+    }
+  });
+});
+
+function smoothScroll() {
+  let scrollToPlans = () => {
+    // window.scroll({
+    //   top: pricingSection.offsetTop,
+    //   left: 0,
+    //   behavior: "smooth",
+    // });
+    pricingSection.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  let scrollToHow = () => {
+    howSection.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  startRentBtn.addEventListener("click", scrollToPlans);
+  howItWorksBtn.addEventListener("click", scrollToHow);
+}
+
+smoothScroll();
+
+// sticky navigation bar
+const heroSection = document.querySelector("#hero-section");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // in the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+observer.observe(heroSection);
+
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement("div");
