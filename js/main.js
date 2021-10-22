@@ -42,7 +42,6 @@ const swiper = new Swiper(".mySwiper-1", {
   // Pagination
   pagination: {
     el: ".swiper-pagination",
-    dynamicBullets: true,
   },
 
   // Navigation arrows
