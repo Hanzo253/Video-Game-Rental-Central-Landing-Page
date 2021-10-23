@@ -1,5 +1,7 @@
+// slideshow images
 function slideshowImages() {
   for (let i = 1; i <= 13; i++) {
+    // create image divs
     const imageDivs = document.createElement("div");
     imageDivs.style.backgroundImage = `linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../img/VGRC-Hero-${i}.jpg)`;
 
@@ -15,12 +17,14 @@ const images = document.querySelectorAll(".hero-slideshow div");
 
 let imageCount = 1;
 
+// slideshow
 function slideShow() {
   setInterval(() => {
     imageCount++;
     const currentImage = document.querySelector(".hero-slideshow .change");
     currentImage.classList.remove("change");
 
+    // restart image slideshow
     if (imageCount <= images.length) {
       currentImage.nextElementSibling.classList.add("change");
     } else {
