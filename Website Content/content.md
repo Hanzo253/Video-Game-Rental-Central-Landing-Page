@@ -9,6 +9,7 @@ Video Game Rental Central is a website that lets gamers rent video games and con
 Headline: The website where gamers can rent easy and play conveniently
 
 Primary Brand Color: #e03131
+Secondary Color: #f8f9fa, #373b3e
 Grey Brand Color: #495057
 
 ## Video Game Rental Central Content
@@ -24,8 +25,6 @@ Modern and Retro video games and consoles avaliable: Our website offers both old
 Gaming Accessories: Users can also order a rental for products such as controllers, chargers, headsets, and many more.
 
 Frequent Updates: We like to be up to date with the gaming trend which means if there is a new game or system coming out, then they will be avaliable in our website in no time.
-
-Subscription pauses and refunds: If the customer will not be able to use the benefits of our plans during a certain period, they are able to pause it for the time being. Furthermore, if they want to cancel the subscription and have not rented anything in that month, then they will be issued a full refund for it.
 
 ### How VRGC works
 
@@ -59,6 +58,7 @@ Phone Number: 770-265-7953
 
 Email Address: support@vgrc.com
 
-### Additional links [not avaliable yet]
+### Additional links
 
-Logo Attribute to give credit: <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+Favicon Logo Attribute to give credit: Icons made by https://www.freepik.com
+from https://www.flaticon.com/
