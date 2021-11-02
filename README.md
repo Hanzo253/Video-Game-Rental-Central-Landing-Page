@@ -1,6 +1,6 @@
 # Video Game Rental Central Landing Page
 
-The landing page of a rental website for video games that is inspired by the concept of GameFly and Blockbuster.
+The landing page of a rental website for video games which was inspired by the concept of GameFly and Blockbuster.
 
 Project Specifications:
 
